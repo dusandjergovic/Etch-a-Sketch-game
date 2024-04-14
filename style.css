@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+#drawing {
+    border: 1px solid black;
+    display: grid;
+    height: 70vh;
+    width: 85%;
+}
