@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $("#change").click(function() {
-        let changeGrid = prompt('Enter new grid size (max. 1024):');
+        let changeGrid = prompt('Enter new grid size (max. 100):');
         totalBoxes = changeGrid * changeGrid;
         $("#drawing").empty();
         for(let i = 0; i < totalBoxes; i++) {
